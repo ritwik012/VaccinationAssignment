@@ -1,0 +1,21 @@
+.container{
+    text-align: left;
+    font-size : 15px;
+    background-color: white;
+}
+div{
+    padding: 5px;
+    width: 500px;
+    margin: 20px;
+    color: black
+}
+.form-group{
+    padding: 3px;
+}
+button{
+    padding: auto;
+    background-color: white;
+}
+h1{
+    text-align: center;
+}

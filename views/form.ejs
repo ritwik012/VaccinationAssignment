@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome to Patient Vaccination App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Patient Registration Form</h1>
+    <div class="container">
+    <form action="/patient/createpatient" method="POST">
+        <div class ="form-group">
+        <label for="name">Name : </label>
+        <input type="text" name="name" id="name" />
+        </div>
+        
+        <div class ="form-group">
+        <label for="DOB">Date of Birth :</label>
+        <input type="date" name="DateOfBirth" id="dob" />
+        </div>
+
+        <div class ="form-group">
+        <label for="gender">Gender :</label>
+        <select name="Gender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        </select>
+        </div>
+        
+        <div class ="form-group">
+        <label for="bloodGroup">Blood Group :</label>
+        <select name="BloodGroup" id="bloodGroup">
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+        </select>
+        </div>
+        
+        <div class ="form-group">
+        <label for="height">Height :</label>
+        <input type="number" name="Height" id="height"/>
+        </div>
+
+        <div class ="form-group">
+        <label for="Weight">Weight :</label>
+        <input type="number" name="Weight" id="weight"/>
+        </div>
+        
+        <div class ="form-group">
+        <label for="pob">Place of Birth : </label>
+        <input type="text" name="PlaceOfBirth" id="pob"/>
+        </div>
+        
+        <div class ="form-group">
+        <button type="submit" id="save">Save</button>
+        <button type="reset" id="cancel">Cancel</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
